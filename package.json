@@ -1,0 +1,17 @@
+{
+  "name": "prometheus-prime",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build:css": "tailwindcss -i ./ui/src/tailwind.css -o ./ui/src/index.css --watch"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
